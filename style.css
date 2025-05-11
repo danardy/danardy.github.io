@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body{ 
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #f1f1f1;
+    margin: 0;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: #00d9ff;
+    text-shadow: 2px 2px 10px #0088ff;
+    margin-top: 30px;
+}
+.form-container{
+    max-width: 500px;
+    margin: auto;
+    background: #191919;
+    border: 2px solid #00d9ff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 20px #00d9ff55;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    background-color: #222;
+    color: #00d9ff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 16px;
+}
+input:focus{
+    border-color: #00d9ff;
+    outline: none;
+    box-shadow: 0 0 8px #00d9ffaa;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00d9ff, #0077ff);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background: linear-gradient(to right, #00c0f5, #0057cc);
+    box-shadow: 0 0 10px #00d9ff99;
+}
+
+.list-container{
+    max-width: 600px;
+    margin: 50px auto;
+    background: #111;
+    padding: 20px;
+    border: 2px solid #00d9ff33;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #00d9ff33;
+}
+
+.pendaftaran{
+    background: #1c1c1c;
+    border-left: 5px solid #00d9ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #00d9ff22;
+}
